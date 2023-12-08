@@ -1,19 +1,17 @@
 import { useState } from 'react'
 import './App.css'
+import AllState from './Components/AllState'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div>
+    <div className="app">
+      Hel
+      <AllState/>
+    </div>
         
-      </div>
-      <h1>Sandesh Gnawali</h1>
-      <div className="card">
-        
-      </div>
-      
     </>
   )
 }
